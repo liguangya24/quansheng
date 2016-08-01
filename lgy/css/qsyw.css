@@ -1,0 +1,258 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+ul,ul li,ol ol li{
+	list-style: none;
+}
+.top{
+	position: relative;
+	height:203px;
+	background-color: #dbddde;
+	background-image: url(../images/top1.png);
+	background-position: 0px 48px;
+	background-repeat: repeat-x;
+}
+.logo{
+	height: 48px;
+	width: 194px;
+	position: absolute;
+	top: 52px;
+	left: 7px;
+}
+.tp{
+	position: absolute;
+	right: 46px;
+	top: 52px;
+}
+.tp dd{
+	font-family: "Microsoft Yahei";
+	float: left;
+	padding:10px 18px;
+	font-size: 18px;
+	border-bottom: 3px #706967 solid;
+}
+.tp .menu1{
+	font-family: "Microsoft Yahei";
+	float: left;
+	padding:10px 18px;
+	font-size: 18px;
+	border-bottom: 3px red solid;
+}
+.tp a{
+	color:#231815;
+	text-decoration: none;
+}
+.tp0{
+	position: absolute;
+    bottom: 0px;
+    left: 50px;
+    line-height: 60px;
+    font-size: 14px;
+    color: #fff;
+}
+.tp0 a{
+	font-family: "Microsoft Yahei";
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	float: left;
+	display: block;
+}
+.tp0 i{
+	float: left;
+	display: block;
+	background-image: url(../images/icon.png);
+	background-position: -122px -100px;
+    position: static;
+    width: 10px;
+    height: 10px;
+    margin-top: 26px;
+    margin-left: 5px; 
+    margin-right: 5px;
+}
+.tp1{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	background: #000000;
+	height: 60px;
+	z-index: 1;
+	opacity: 0.5;
+}
+.center{
+	position: relative;
+}
+.center li{
+	height: 500px;
+	width: 1358px;
+	padding-top: 30px;
+	position: relative;
+}
+.c1l i{
+	float: left;
+	height: 380px;
+	width: 610px;
+	background-image: url(../images/abc1.png);
+}
+.c1r .sp1{
+	display: block;
+	float: right;
+	width: 157px;
+	height: 38px;
+	background-image: url(../images/business.png);
+	background-position: 0px -2px;
+}
+.c1r .sp2{
+	display: block;
+	float: right;
+	width: 157px;
+	height: 38px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	font-family: "Microsoft Yahei";
+	background-image: url(../images/business.png);
+	background-position: 0px -238px;
+	margin-right: 10px;
+}
+.c1r div{
+	width: 844px;
+	height: 256px;
+	position: absolute;
+	background-color: white;
+	z-index: 1;
+	right: 0;
+	top: 154px;
+	font-family: "Microsoft Yahei";
+}
+.c1r p{
+	margin-left: 56px;
+	margin-top: 36px;
+}
+.sp3{
+	float: left;
+	width: 75px;
+	height: 20px;
+	border: 1px gray solid;
+	border-radius: 10px;
+	color: gray;
+	text-align: center;
+	line-height: 20px;
+}
+.c1r a{
+	float: left;
+	text-decoration: none;
+	font-size: 12px;
+	margin-left: 56px;
+	margin-top: 20px;
+}
+.c2r i{
+	float: right;
+	height: 380px;
+	width: 610px;
+	background-image: url(../images/abc1.png);
+}
+.c2l .sp1{
+	display: block;
+	float: left;
+	width: 157px;
+	height: 38px;
+	background-image: url(../images/business.png);
+	background-position: 0px -52px;
+}
+.c2l .sp2{
+	display: block;
+	float: left;
+	width: 157px;
+	height: 38px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	font-family: "Microsoft Yahei";
+	background-image: url(../images/business.png);
+	background-position: 0px -282px;
+	margin-right: 10px;
+}
+.c2l div{
+	width: 844px;
+	height: 256px;
+	position: absolute;
+	background-color: white;
+	z-index: 1;
+	left: 0;
+	top: 154px;
+	font-family: "Microsoft Yahei";
+}
+.c2l p{
+	margin-top: 36px;
+	margin-right: 56px;
+}
+.c2l a{
+	float: left;
+	text-decoration: none;
+	font-size: 12px;
+	margin-left: 56px;
+	margin-top: 20px;
+}
+.down{ 
+	border-top:1px #dad7d7 solid;
+	height: 179px;
+}
+.dw1{
+	float: left;
+	height: 70px;
+	width: 240px;
+	border-right: 5px #c90411 solid;
+	margin-top: 40px;
+	margin-left: 110px;
+}
+.dw1 i{
+	float: left;
+	width: 195px;
+	height: 48px;
+	background-image: url(../images/logo2.png);
+	margin-top: 10px;
+}
+.dw2 i{
+	float: right;
+	width: 70px;
+	height: 70px;
+	background-image: url(../images/dw2.png);
+	background-position: -4px -4px;
+	margin-right: 70px;
+	margin-top: 40px;
+}
+.dw3{
+	float: right;
+	height: 70px;
+	width: 550px;
+	margin-right: 10px;
+	margin-top: 40px;
+}
+.dw3_1 li{
+	float:right;
+	list-style: none;
+	color: #d4d5d5;
+}
+.dw3_1 li a{
+	font-family: "Microsoft Yahei";
+	font-size: 15px;
+	text-decoration: none;
+	color:  #7a7a7a;
+}
+.dw3 p{
+	float: right;
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+	color:  #7a7a7a;
+	margin-top: 5px;
+}
